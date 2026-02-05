@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Three Layers | Homemade Cheesecakes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Three Layers</h1>
+    <p>Homemade cheesecakes baked fresh, one layer at a time.</p>
+    <a href="#order" class="btn">Order Cheesecake</a>
+  </header>
+
+  <section class="products">
+    <h2>Our Cheesecakes</h2>
+
+    <div class="product">
+      <h3>🍓 Strawberry Three Layer Cheesecake</h3>
+      <p>
+        Smooth vanilla cream cheese layered with fresh strawberry flavor
+        and a buttery biscuit base — light, creamy, and comforting.
+      </p>
+    </div>
+
+    <div class="product">
+      <h3>🍫 Chocolate Three Layer Cheesecake</h3>
+      <p>
+        Rich chocolate blended into creamy cheesecake layers with a
+        classic biscuit base — soft, indulgent, and deeply satisfying.
+      </p>
+    </div>
+  </section>
+
+  <section class="order" id="order">
+    <h2>Order Request</h2>
+    <p>Pickup only · Baked fresh to order</p>
+
+    <form id="orderForm">
+      <label>
+        Cheesecake Flavor
+        <select required>
+          <option value="">Select one</option>
+          <option>Strawberry</option>
+          <option>Chocolate</option>
+        </select>
+      </label>
+
+      <label>
+        Pickup Date
+        <input type="date" required />
+      </label>
+
+      <label>
+        Pickup Time
+        <input type="time" required />
+      </label>
+
+      <label>
+        Phone Number
+        <input type="tel" placeholder="e.g. 555-1234" required />
+      </label>
+
+      <!-- PAYMENT BUTTON GOES HERE -->
+      <button type="submit" class="btn">Submit Order Request</button>
+    </form>
+
+    <p class="note">
+      After payment and submission, we’ll contact you to confirm pickup time.
+    </p>
+  </section>
+
+  <footer>
+    <p>© Three Layers · Homemade Cheesecakes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
